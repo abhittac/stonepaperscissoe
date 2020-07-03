@@ -1,0 +1,104 @@
+body{
+margin: 0;
+padding: 0;
+background: #151965;
+}
+.rockh,.scissorh{
+  font-weight: 900;
+  font-size: 40px;
+color:white;
+font-family: cursive;
+}
+.paperh{
+  
+  font-weight: 900;
+  font-size: 40px;
+  font-family:cursive;
+}
+.head{
+  text-align: center;
+  height: 80px;
+  width: 100%;
+  background: #1b262c;
+  color: #bbe1fa;
+  margin: 0;
+  padding: 0;
+}
+#rock{
+  background: url("rock.png");
+  background-position: center;
+  background-size: cover;
+  height: 80px;
+  width: 60px;
+  border-radius: 30px;
+  box-shadow:2px 2px 2px #262626;
+  margin: 30px;
+}
+#paper{
+  background: url("lol.png");
+  background-position: center;
+  background-size: cover;
+  height: 80px;
+  width: 60px;
+  border-radius: 30px;
+  margin: auto;
+  margin-right: 18px;
+  box-shadow:2px 2px 2px #262626;
+  
+}
+#scissor{
+  background: url("scissor.PNG");
+  background-position: center;
+  background-size: cover;
+  height: 80px;
+  width: 60px;
+  margin: auto;
+  margin-right: 50px;
+  border-radius: 30px;
+  box-shadow:2px 2px 2px #262626;
+}
+.btn{
+  display: flex;
+  margin-top: 60%;
+  margin-left: 10%;
+  
+}
+.player{
+  background: url("player.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  box-shadow:2px 2px 2px #262626;
+  margin-top: 120px;
+  margin-left: 20%;
+
+}
+.cpu{
+  background: url("cpu.PNG");
+  background-position: center;
+  background-size: cover;
+  height: 120px;
+  width: 120px;
+  margin-top: -120px;
+  margin-left:60%;
+  border-radius: 60px;
+  box-shadow:2px 2px 2px #262626;
+}
+.show{
+  margin: auto;
+  margin-top: -60px;
+}
+.pl{
+  margin: auto;
+  position: relative;
+  top:38px;
+  right:70px;
+  font-variant: small-caps;
+}
+.pc{
+  margin: auto;
+  margin-left: 240px;
+  font-variant: small-caps;
+}
