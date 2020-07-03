@@ -1,11 +1,11 @@
 $("#rock").click(()=>{
-  $(".player").css({"background":" url('rock.png')",
+  $(".player").css({"background":" url('rock.PNG')",
   "background-position": "center",
   "background-size": "cover"});
   var a=Math.floor(Math.random()*3)
   var txt=["rock","lol","scissor"]
   var c=txt[a];
-  $(".cpu").css({"background":`url('${c}.png')`,
+  $(".cpu").css({"background":`url('${c}.PNG')`,
   "background-position": "center",
   "background-size": "cover"});
  
@@ -34,14 +34,14 @@ $("#rock").click(()=>{
 })
 
 $("#paper").click(()=>{
-  $(".player").css({"background":" url('lol.png')",
+  $(".player").css({"background":" url('lol.PNG')",
   "background-position": "center",
   "background-size": "cover"});
   
   var a=Math.floor(Math.random()*3)
   var txt=["rock","lol","scissor"]
   var c=txt[a];
-  $(".cpu").css({"background":`url('${c}.png')`,
+  $(".cpu").css({"background":`url('${c}.PNG')`,
   "background-position": "center",
   "background-size": "cover"});
   
@@ -73,14 +73,14 @@ $("#paper").click(()=>{
 })
 
 $("#scissor").click(()=>{
-  $(".player").css({"background":" url('scissor.png')",
+  $(".player").css({"background":" url('scissor.PNG')",
   "background-position": "center",
   "background-size": "cover"});
   
   var a=Math.floor(Math.random()*3)
   var txt=["rock","lol","scissor"]
   var c=txt[a];
-  $(".cpu").css({"background":`url('${c}.png')`,
+  $(".cpu").css({"background":`url('${c}.PNG')`,
   "background-position": "center",
   "background-size": "cover"});
  
