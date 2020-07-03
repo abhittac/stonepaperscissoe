@@ -76,7 +76,7 @@ font-family: cursive;
 
 }
 .cpu{
-  background: url("cpu.PNG");
+  background: url("cpu.png");
   background-position: center;
   background-size: cover;
   height: 120px;
